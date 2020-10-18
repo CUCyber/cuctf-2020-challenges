@@ -1,0 +1,13 @@
+name: Cisco Online Vulnerability Inspector Device
+author: runcode
+
+category: Runcode
+description: |-
+  Craft exploit for service, read /flag.txt, profit.
+
+  Site: [http://covid.runcode.ninja/](http://covid.runcode.ninja/)
+
+  *Note: Flag is not in usual format*
+
+flag:
+  file: ./flag.txt

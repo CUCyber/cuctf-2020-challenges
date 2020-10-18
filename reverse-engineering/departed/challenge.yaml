@@ -1,0 +1,13 @@
+name: Departed
+author: Matt E
+
+category: Reverse Engineering
+description: Sometimes reverse engineering isn't as easy without a normal binary.
+
+category: Reverse Engineering
+
+flag:
+  file: ./flag.txt
+
+provide:
+  - ./departed

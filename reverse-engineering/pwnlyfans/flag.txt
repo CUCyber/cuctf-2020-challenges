@@ -1,0 +1,1 @@
+CUCTF{wasm_g4ng_15%off}

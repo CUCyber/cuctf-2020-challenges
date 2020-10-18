@@ -1,0 +1,11 @@
+name: Virtual
+author: Matt R
+
+category: Reverse Engineering
+description: School is virtual, work is virtual, why not make your machine virtual?
+
+provide:
+  - ./virtual
+
+flag:
+  file: ./flag.txt

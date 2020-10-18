@@ -1,0 +1,11 @@
+name: Pier
+author: Matt R
+category: Cryptography
+description: |-
+  I like making my own way to get primes. I don't want the numbers to get lonely :(
+provide:
+  - ./pier.py
+  - ./out.txt
+
+flag:
+  file: ./flag.txt

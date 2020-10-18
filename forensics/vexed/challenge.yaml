@@ -1,0 +1,11 @@
+name: Vexed
+author: Matt R
+category: Forensics
+description: |-
+  We found the strangest traffic on our network, our homies at the SOC don't even know where to begin!?
+
+provide:
+  - ./challenge.pcapng
+
+flag:
+  file: ./flag.txt

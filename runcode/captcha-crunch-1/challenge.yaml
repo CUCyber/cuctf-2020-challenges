@@ -1,0 +1,11 @@
+name: Captcha Crunch 1
+author: runcode
+
+category: Runcode
+description: |-
+  Recover the `flag1.txt` file from the file system at `157.230.63.229`
+
+  *Note: Flag is not in the usual format*
+
+flag:
+  file: ./flag.txt

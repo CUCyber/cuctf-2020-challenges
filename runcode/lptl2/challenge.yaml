@@ -1,0 +1,11 @@
+name: LegitPentestLabs2 (LPTL2)
+author: runcode
+description: |-
+  Gain shell access for `flag2`
+
+  Site: [http://pentestlab.runcode.ninja/](http://pentestlab.runcode.ninja/)
+
+  *Note: Flag is not in the usual format*
+
+flag:
+  file: ./flag.txt

@@ -1,0 +1,11 @@
+name: LegitPentestLabs3 (LPTL3)
+author: runcode
+description: |-
+  User pivot for `flag3` (no need for rewt)
+
+  Site: [http://pentestlab.runcode.ninja/](http://pentestlab.runcode.ninja/)
+
+  *Note: Flag is not in the usual format*
+
+flag:
+  file: ./flag.txt

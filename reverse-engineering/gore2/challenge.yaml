@@ -1,0 +1,10 @@
+name: Gore2
+author: Matt R
+category: Reverse Engineering
+description: |-
+  Remember the good ol' days of onLine games? I made a tool to view some info of my favorite compressed tracks.
+provide:
+  - ./gore2
+
+flag:
+  file: ./flag.txt

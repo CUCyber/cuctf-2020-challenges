@@ -1,0 +1,11 @@
+name: LegitPentestLabs1 (LPTL1)
+author: runcode
+description: |-
+  Gain admin access to the website and get `flag1` (probably want to use an email you can receive to, throwaways suggested)
+
+  Site: [http://pentestlab.runcode.ninja/](http://pentestlab.runcode.ninja/)
+
+  *Note: Flag is not in the usual format*
+
+flag:
+  file: ./flag.txt

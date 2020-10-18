@@ -1,0 +1,11 @@
+name: Anti-RE
+author: Matt E
+
+category: Reverse Engineering
+description: Only true reverse engineers are able to tackle this challenge.
+
+provide:
+  - ./anti-re
+
+flag:
+  file: ./flag.txt

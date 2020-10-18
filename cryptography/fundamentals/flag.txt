@@ -1,0 +1,1 @@
+CUCTF{very-good-with-fundamentals}

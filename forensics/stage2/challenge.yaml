@@ -1,0 +1,14 @@
+name: CrowdStrike-stage2
+author: Daniel Roberson
+
+category: Forensics
+description: |
+    A sysadmin found some suspicious activity in a user's .bash_history.
+    We think that Madd Hacker may have been using this account. Can you find the flag?
+
+flag:
+    file: ./flag.txt
+
+provide:
+- ./user_bash_history.txt
+

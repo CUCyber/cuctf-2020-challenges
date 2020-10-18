@@ -1,0 +1,58 @@
+0x1000	# push 0
+0x7100	# store r1
+0x1002	# push 2	<-------------------------------
+0x6100	# load r1					|
+0xc000	# mod r1 % 2					|
+0xa015	# jump if zero flag --------------------	|
+0x2000	# pop					|	|
+0x100a	# push 10				|	|
+0x6100	# load r1				|	|
+0xc000	# mod					|	|
+0xb000	# fibonacci				|	|
+0x6100	# load r1				|	|
+0xf000	# enc					|	|
+0x5000	# sub					|	|
+0x101b	# push 27				|	|
+0x8000	# xor					|	|
+0x6100	# load r1				|	|
+0xe000	# flag					|	|
+0x5000	# sub					|	|
+0xa023	# jump if zero --------			|	|
+0x0000	# halt/fail		\		|	|
+0x2000	# pop		<--------|---------------	|
+0x6100	# load r1		/			|
+0xf000	# enc			|			|
+0x1006	# push 6		|			|
+0xb000	# fibonacci		|			|
+0x1007	# push 7		|			|
+0x4000	# add			|			|
+0x4000	# add			|			|
+0x1008	# push 8		|			|
+0x8000	# xor			|			|
+0x6100	# load r1		|			|
+0xe000	# flag			|			|
+0x5000	# sub			|			|
+0xa114	# jump if zero flag not set			|
+0x6100	# load r1	<--------			|
+0x1001	# push 1					|
+0x4000	# add						|
+0x7100	# store r1					|
+0x2000	# pop						|
+0x6100	# load r1				       	|
+0x102f	# push 47				       	|
+0x5000	# sub					       	|
+0x2000	# pop					       	|
+0xa102	# jump if zero flag not set  -------------------
+0xd001	# success
+0x0000	# halt	
+
+Flag checker algorithm psuedocode:
+flag = ""
+
+for i in range(47)
+    if i % 2 == 0:
+	# even
+	flag += (enc[i]+15) ^ 8
+    else:
+	# odd
+	flag += (enc[i] - fib(i%10)) ^ 27

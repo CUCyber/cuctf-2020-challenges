@@ -1,0 +1,11 @@
+name: Pwnlyfans
+author: Matt R
+
+category: Reverse Engineering
+description: |-
+  PwnlyFans, the only site to get your exclusive hacker 0days and exploits from your favorite vulnerability researchers and exploit developers. You found some coupon page, which might just lead you to wat you want.
+
+  `http://pwnlyfans.ctf.cuctf.io:8100`
+
+flag:
+  file: ./flag.txt

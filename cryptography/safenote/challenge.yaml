@@ -1,0 +1,13 @@
+name: Safenote
+author: Matt R
+hostname: safenote
+category: Cryptography
+description: |-
+  Notes indexed by hash and encrypted with military grade encryption! What can possibly go wrong?
+
+  `safenote.ctf.cuctf.io 7500`
+provide:
+  - ./safenote.py
+
+flag:
+  file: ./flag.txt

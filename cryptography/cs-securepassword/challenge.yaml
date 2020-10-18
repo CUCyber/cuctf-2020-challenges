@@ -1,0 +1,16 @@
+name: CrowdStrike-Securepassword
+author: Daniel Roberson
+category: Cryptography
+description: |-
+    Madd Hacker zipped some data before exfiltrating it from the database server. Unfortunately, loot.zip is password protected. Can you determine what was stolen?
+
+    Here are some logs and a copy of securepassword.c if they help:
+
+flag:
+  file: ./flag.txt
+
+provide:
+- ./loot.zip
+- ./securepassword.c
+- ./syslog.txt
+

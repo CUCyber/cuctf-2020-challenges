@@ -1,0 +1,8 @@
+name: Sanity Check
+author: Matt R
+category: Forensics
+description: |-
+  Flag is CUCTF{insanitycheck}
+
+flag:
+  file: ./flag.txt

@@ -1,0 +1,15 @@
+name: Dr-Xorisaurus
+author: FizzBuzz101
+hostname: drxorisaurus
+description: |-
+  Wow. Did you know Dr Xorisaurus is using glibc 2.32 in his memory research lab? (Note: on remote, proof of work is required)
+
+  `nc drxorisaurus.ctf.cuctf.io 9200`
+
+provide:
+  - ./dr_xorisaurus
+  - ./ld-2.32.so
+  - ./libc.so.6
+
+flag:
+  file: ./flag.txt

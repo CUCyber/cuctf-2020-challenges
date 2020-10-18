@@ -1,0 +1,22 @@
+0x1000	# push 0
+0x7100	# store r1	
+0x6100	# load r1		<----------------
+0xe000	# flag_buf[pop()]			|
+0x1000	# push 0				|
+0x8000	# xor flag_buf[i] 0			|
+0x2000	# pop					|
+0x6100	# load r1				|
+0x1001	# push 1				|
+0x4000	# add					|
+0x7100	# store r1				|
+0xa102	# jump if zero flag not set  -----------|
+0x6100	# load r1
+0x1031	# push 0x31
+0x5000	# sub
+0xa012	# jump if zero flag set	--------|
+0xd100	# fail				|
+0x0000	# halt				|
+0xd101	# success	<----------------
+0x0000	# halt
+
+Checks the length of the flag

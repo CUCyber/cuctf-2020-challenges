@@ -1,0 +1,9 @@
+name: KissKiss
+author: Jake M
+category: Cryptography
+description: A classic cipher with a twist. There's a hidden truth beneath this text.
+flag:
+    file: ./flag.txt
+provide:
+- ./garbage.txt
+- ./message.txt

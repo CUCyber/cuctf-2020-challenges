@@ -1,0 +1,33 @@
+name: CrowdStrike - Social Media
+
+author: Daniel Roberson
+
+category: OSINT
+description: |-
+    Madd Hacker seems to have a lot of social media accounts. How many can you find?
+
+    I used shamir secret sharing to build this, and put a piece in one of the multiple social media accounts of Madd Hacker:
+
+    `% ssss-split -t 5 -n 7
+    Generating shares using a (5,7) scheme with dynamic security level.
+    Enter the secret, at most 128 ASCII characters: Using a 224 bit security level.
+    1-3f09e46c3b28aa260a43698169dc6ef050389c79d47824a7f48f5999
+    2-0048433ac5d926c703b4b966178b917e3d5c4722021c529ac54a8bce
+    3-b3fe06eea3fdcdf32fccd5660dcc69bc6ce09678b7a61733b8a773a6
+    4-80307aa2a1f5cf780a9e02c7794f80c5ad583a727ed5638a944a5039
+    5-01d454d5cbc0714ed258021efa447d3c7408ce01bc36e58460e1cdeb
+    6-5a3124c52d1357aa32d30b4ab68b88c508b45f0884e114f643a8d5a0
+    7-0b131f899e9698477b9c720db042af8289c67c75e1c764af59af8532`
+
+
+    All usernames are maddhacker1337
+
+    Reddit
+    Twitter
+    Keybase
+    Github
+    Gitlab
+    dev.to
+    Medium
+flag:
+    file:  ./flag.txt

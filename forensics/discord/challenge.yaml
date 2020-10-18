@@ -1,0 +1,10 @@
+name: Discord
+author: Mara B
+category: Forensics
+description: |-
+  Discord's search broke, and I lost the `flag.txt`, all I have is the attachment ID, please find it for me!
+
+  `761144056486559744`
+
+flag:
+  file: ./flag.txt

@@ -1,0 +1,8 @@
+.gdb_history
+.gdb_history*
+.bash_history
+.vscode
+.DS_Store
+*.swp
+*.swo
+*.swx

@@ -1,0 +1,11 @@
+name: Castle 2
+author: runcode
+
+category: Runcode
+description: |-
+  After solving Castle 1, recover the `flag2.txt` file from the same system
+
+  *Note: Flag is not in the usual format*
+
+flag:
+  file: ./flag.txt

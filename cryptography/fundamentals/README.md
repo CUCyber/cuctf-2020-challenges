@@ -1,0 +1,7 @@
+# Fundamentals Challenge
+
+XOR is a bitwise operator which returns 0 if the bits are the same, and 1 otherwise. One of the fundamentals of cyptography is the power of XOR. 
+
+With this logic, a string of text can be encrypted by applying the bitwise XOR operator to every character using a given key. To decrypt the output, merely reapplying the XOR function with the key will remove the cipher.
+
+*Note: Don't forget to decode the base64 encoding!*
